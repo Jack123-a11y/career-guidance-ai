@@ -1,0 +1,8 @@
+package com.sahil.career_guidance_ai.repository;
+
+import com.sahil.career_guidance_ai.entity.ResumeAnalysis;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ResumeAnalysisRepository
+        extends JpaRepository<ResumeAnalysis, Long> {
+}
